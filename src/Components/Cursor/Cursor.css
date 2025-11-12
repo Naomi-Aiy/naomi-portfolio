@@ -1,0 +1,20 @@
+.custom-cursor {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 15px;
+    height: 15px;
+    background: #ffffff;
+    border-radius: 50%;
+    pointer-events: none;
+    transform: translate(-50%, -50%);
+    transition: transform 0.1s ease, width 0.15s ease, height 0.15s ease, box-shadow 0.15s ease;
+    z-index: 99999;
+  }
+  
+  .custom-cursor.click {
+    width: 25px;
+    height: 25px;
+    box-shadow: 0 0 15px #F2BB78, 0 0 30px #F2BB78;
+  }
+  

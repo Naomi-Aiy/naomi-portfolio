@@ -1,0 +1,14 @@
+/* ~Stars Container~ */
+.stars-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+    background-size: cover;
+    display: flex;
+    z-index: 30; 
+}
