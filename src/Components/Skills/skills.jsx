@@ -6,7 +6,7 @@ import Star from '../Star/Star';
 const skillsData = [
   {
     category: 'Languages',
-    skills: ['Java', 'Python', 'HTML', 'CSS', 'JavScript','VBA']
+    skills: ['Java', 'Python', 'HTML', 'CSS', 'JavaScript','VBA']
   },
   {
     category: 'Frontend',
