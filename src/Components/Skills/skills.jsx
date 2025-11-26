@@ -9,12 +9,12 @@ const skillsData = [
     skills: ['Java', 'Python', 'HTML', 'CSS', 'JavaScript','VBA']
   },
   {
-    category: 'Frontend',
-    skills: ['React.js', 'Shopify', 'Wordpress']
+    category: 'Frameworks',
+    skills: ['React.js','Flask', 'Selenium', 'Beautiful Soup', 'MATLAB', 'Replit', 'Excel', 'Maple',]
   },
   {
     category: 'Tools',
-    skills: ['Github', 'MATLAB', 'Replit', 'Excel', 'Maple']
+    skills: ['Github','Shopify', 'Wordpress']
   },
   {
     category: 'Design Tools',

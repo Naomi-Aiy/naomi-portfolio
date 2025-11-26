@@ -10,6 +10,8 @@ import PortImg from '../../assets/Portfolio Landing Page.png';
 import SSM from '../../assets/SSM.png'; 
 import Ascent from '../../assets/Ascent Img.png'; 
 import Abode from '../../assets/Abode Img.jpg'; 
+import Scraper from '../../assets/Scraper.png'; 
+import Luminara from '../../assets/Luminara.png'; 
 
 const projectsData = [
   {
@@ -50,6 +52,29 @@ const projectsData = [
     description: 'A personal portfolio site to showcase my projects, skills, and contact information with a modern responsive design.',
     skills: ['React.js', 'HTML', 'CSS', 'JavaScript', 'Figma'],
     image: PortImg,
+    buttons: [
+      { text: 'GitHub Repo', url: 'https://github.com/Naomi-Aiy/Naomi-Portfolio', type: 'primary' }
+    ]
+  },
+  {
+    title: 'Web Dev Job Scraper',
+    types: ['Programming'],
+    description: 'Created a website that scrapes job information from different job boards and consolidates it in one place.',
+    skills: ['Python', 'HTML', 'CSS', 'JavaScript', 'Flask', 'Selenium', 'Beautiful Soup'], 
+    image: Scraper,
+    buttons: [
+      { text: 'GitHub Repo', url: 'https://github.com/Naomi-Aiy/Web-Dev-Job-Scraper', type: 'primary' }
+    ]
+  },
+  {
+    title: 'Luminara Landing Page',
+    types: ['UI/UX Design'],
+    description: 'Completed a commissioned project to design a landing page for a marketing agency.',
+    skills: ['Figma'], 
+    image: Luminara,
+    buttons: [
+      { text: 'Figma Link', url: 'https://www.figma.com/proto/gSPMFqHQCSQXcPUvrL6S7v/Luminara-Web-Trial?node-id=6-35&p=f&t=Q3wapqCvWps2tnUl-1&scaling=min-zoom&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=6%3A35', type: 'primary' }
+    ]
   },
   {
     title: 'Jarmony: Tales of Enchantment',
@@ -58,7 +83,7 @@ const projectsData = [
     skills: ['Java'],
     image: Jarmony,
     buttons: [
-      { text: ' GitHub Repo', url: 'https://github.com/Naomi-Aiy/Jarmony-TalesofEnchantment', type: 'primary' }
+      { text: 'GitHub Repo', url: 'https://github.com/Naomi-Aiy/Jarmony-TalesofEnchantment', type: 'primary' }
     ]
   },
   {
@@ -68,8 +93,8 @@ const projectsData = [
     skills: ['WordPress', 'Figma', 'CSS'],
     image: KingPool,
     buttons: [
-      { text: ' Live Site', url: 'https://king-air.com/', type: 'primary' },
-      { text: ' Figma Design', url: 'https://www.figma.com/proto/0wN0NUx8ssc8VPVSRTVPNF/King-Air?node-id=0-1&t=wB8vIF9U61mOsstV-1', type: 'secondary' }
+      { text: 'Live Site', url: 'https://king-air.com/', type: 'primary' },
+      { text: 'Figma Design', url: 'https://www.figma.com/proto/0wN0NUx8ssc8VPVSRTVPNF/King-Air?node-id=0-1&t=wB8vIF9U61mOsstV-1', type: 'secondary' }
     ]
   },
   {
@@ -79,8 +104,8 @@ const projectsData = [
     skills: ['HTML', 'CSS', 'JavaScript', 'Figma'],
     image: Ascent,
     buttons: [
-      { text: ' Devpost ', url: 'https://devpost.com/software/ascent-4dg7fw', type: 'primary' },
-      { text: ' Github Repo ', url: 'https://github.com/Naomi-Aiy/Ascent', type: 'secondary' }
+      { text: 'Devpost ', url: 'https://devpost.com/software/ascent-4dg7fw', type: 'primary' },
+      { text: 'Github Repo ', url: 'https://github.com/Naomi-Aiy/Ascent', type: 'secondary' }
     ]
   },
   {
@@ -90,8 +115,8 @@ const projectsData = [
     skills: ['WordPress', 'Figma', 'CSS'],
     image: Pharmacold,
     buttons: [
-      { text: ' Live Site', url: 'https://pharmacold.ca/', type: 'primary' },
-      { text: ' Figma Design', url: 'https://www.figma.com/proto/z6E9PmQKb7Gg3jqDjaDPSu/Pharmacold?t=wB8vIF9U61mOsstV-1', type: 'secondary' }
+      { text: 'Live Site', url: 'https://pharmacold.ca/', type: 'primary' },
+      { text: 'Figma Design', url: 'https://www.figma.com/proto/z6E9PmQKb7Gg3jqDjaDPSu/Pharmacold?t=wB8vIF9U61mOsstV-1', type: 'secondary' }
     ]
   },
   {
@@ -101,8 +126,8 @@ const projectsData = [
     skills: ['HTML', 'CSS', 'JavaScript', 'Figma'],
     image: Abode,
     buttons: [
-      { text: ' Devpost ', url: 'https://devpost.com/software/abode-ljsth4', type: 'primary' },
-      { text: ' Figma Link ', url: 'https://www.figma.com/proto/KTgzAQpXn6G8kVoFRNMNRS/Abode?node-id=53-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=53%3A2', type: 'secondary' }
+      { text: 'Devpost ', url: 'https://devpost.com/software/abode-ljsth4', type: 'primary' },
+      { text: 'Figma Link ', url: 'https://www.figma.com/proto/KTgzAQpXn6G8kVoFRNMNRS/Abode?node-id=53-2&scaling=scale-down&page-id=0%3A1&starting-point-node-id=53%3A2', type: 'secondary' }
     ]
   },
 ];

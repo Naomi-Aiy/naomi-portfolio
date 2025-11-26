@@ -25,7 +25,7 @@ const Footer = () => {
         </ul>
 
         <p>This website was created using React.Js, HTML, CSS, and JavaScript by Naomi Anderson.
-        Last updated on November 8th, 2025 at 15:23 EST by Naomi.
+        Last updated on November 23rd, 2025 at 13:30 EST by Naomi.
         </p>
     </div>
   )
